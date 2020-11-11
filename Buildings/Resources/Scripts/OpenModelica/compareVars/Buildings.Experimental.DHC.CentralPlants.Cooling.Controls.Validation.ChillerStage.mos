@@ -1,7 +1,0 @@
-compareVars :=
-  {
-    "chiStaCon.on",
-    "chiStaCon.QLoa",
-    "chiStaCon.y[1]",
-    "chiStaCon.y[2]"
-  };
