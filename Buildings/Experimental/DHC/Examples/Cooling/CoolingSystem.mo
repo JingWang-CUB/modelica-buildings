@@ -91,6 +91,9 @@ model CoolingSystem
     pumCHW(
       yValve_start=fill(
         1,
+        pla.numChi),
+      yPump_start=fill(
+        1,
         pla.numChi)))
     "District cooling plant"
     annotation (Placement(transformation(extent={{-30,0},{-10,20}})));
@@ -163,8 +166,7 @@ equation
       StopTime=86400,
       Tolerance=1e-06,
       __Dymola_Algorithm="Cvode"),
-    __Dymola_Commands(file=
-          "Resources/Scripts/Dymola/Experimental/DHC/Examples/Cooling/CoolingSystem.mos"
+    __Dymola_Commands(file="Resources/Scripts/Dymola/Experimental/DHC/Examples/Cooling/CoolingSystem.mos"
         "Simulate and Plot"),
     Documentation(
       revisions="<html>
