@@ -1,0 +1,291 @@
+FMIL: module = FMI2XML, log level = 4: [Line:7346] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Initial 'calculated' is not allowed for variability 'constant' and causality 'local'. Setting initial to 'exact' for variable 'bld[1].bui.terUniCoo.fan.port_a.p'
+FMIL: module = FMI2XML, log level = 4: [Line:7347] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Start attribute is required for this causality, variability and initial combination
+FMIL: module = FMI2XML, log level = 4: [Line:7446] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Initial 'calculated' is not allowed for variability 'constant' and causality 'local'. Setting initial to 'exact' for variable 'bld[1].bui.terUniCoo.fan.preSou.port_a.p'
+FMIL: module = FMI2XML, log level = 4: [Line:7447] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Start attribute is required for this causality, variability and initial combination
+FMIL: module = FMI2XML, log level = 4: [Line:7518] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Initial 'calculated' is not allowed for variability 'constant' and causality 'local'. Setting initial to 'exact' for variable 'bld[1].bui.terUniCoo.fan.senMasFlo.port_a.p'
+FMIL: module = FMI2XML, log level = 4: [Line:7519] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Start attribute is required for this causality, variability and initial combination
+FMIL: module = FMI2XML, log level = 4: [Line:7534] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Initial 'calculated' is not allowed for variability 'constant' and causality 'local'. Setting initial to 'exact' for variable 'bld[1].bui.terUniCoo.fan.senMasFlo.port_b.p'
+FMIL: module = FMI2XML, log level = 4: [Line:7535] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Start attribute is required for this causality, variability and initial combination
+FMIL: module = FMI2XML, log level = 4: [Line:7570] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Initial 'calculated' is not allowed for variability 'constant' and causality 'local'. Setting initial to 'exact' for variable 'bld[1].bui.terUniCoo.fan.senRelPre.port_b.p'
+FMIL: module = FMI2XML, log level = 4: [Line:7571] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Start attribute is required for this causality, variability and initial combination
+FMIL: module = FMI2XML, log level = 4: [Line:7810] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Initial 'calculated' is not allowed for variability 'constant' and causality 'local'. Setting initial to 'exact' for variable 'bld[1].bui.terUniCoo.fan.vol.dynBal.medium.p'
+FMIL: module = FMI2XML, log level = 4: [Line:7811] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Start attribute is required for this causality, variability and initial combination
+FMIL: module = FMI2XML, log level = 4: [Line:7838] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Initial 'calculated' is not allowed for variability 'constant' and causality 'local'. Setting initial to 'exact' for variable 'bld[1].bui.terUniCoo.fan.vol.dynBal.medium.state.p'
+FMIL: module = FMI2XML, log level = 4: [Line:7839] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Start attribute is required for this causality, variability and initial combination
+FMIL: module = FMI2XML, log level = 4: [Line:7850] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Initial 'calculated' is not allowed for variability 'constant' and causality 'local'. Setting initial to 'exact' for variable 'bld[1].bui.terUniCoo.fan.vol.dynBal.p_start'
+FMIL: module = FMI2XML, log level = 4: [Line:7851] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Start attribute is required for this causality, variability and initial combination
+FMIL: module = FMI2XML, log level = 4: [Line:7866] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Initial 'calculated' is not allowed for variability 'constant' and causality 'local'. Setting initial to 'exact' for variable 'bld[1].bui.terUniCoo.fan.vol.dynBal.ports[1].p'
+FMIL: module = FMI2XML, log level = 4: [Line:7867] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Start attribute is required for this causality, variability and initial combination
+FMIL: module = FMI2XML, log level = 4: [Line:7882] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Initial 'calculated' is not allowed for variability 'constant' and causality 'local'. Setting initial to 'exact' for variable 'bld[1].bui.terUniCoo.fan.vol.dynBal.ports[2].p'
+FMIL: module = FMI2XML, log level = 4: [Line:7883] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Start attribute is required for this causality, variability and initial combination
+FMIL: module = FMI2XML, log level = 4: [Line:8018] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Initial 'calculated' is not allowed for variability 'constant' and causality 'local'. Setting initial to 'exact' for variable 'bld[1].bui.terUniCoo.fan.vol.p'
+FMIL: module = FMI2XML, log level = 4: [Line:8019] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Start attribute is required for this causality, variability and initial combination
+FMIL: module = FMI2XML, log level = 4: [Line:8022] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Initial 'calculated' is not allowed for variability 'constant' and causality 'local'. Setting initial to 'exact' for variable 'bld[1].bui.terUniCoo.fan.vol.p_start'
+FMIL: module = FMI2XML, log level = 4: [Line:8023] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Start attribute is required for this causality, variability and initial combination
+FMIL: module = FMI2XML, log level = 4: [Line:8042] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Initial 'calculated' is not allowed for variability 'constant' and causality 'local'. Setting initial to 'exact' for variable 'bld[1].bui.terUniCoo.fan.vol.ports[1].p'
+FMIL: module = FMI2XML, log level = 4: [Line:8043] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Start attribute is required for this causality, variability and initial combination
+FMIL: module = FMI2XML, log level = 4: [Line:8058] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Initial 'calculated' is not allowed for variability 'constant' and causality 'local'. Setting initial to 'exact' for variable 'bld[1].bui.terUniCoo.fan.vol.ports[2].p'
+FMIL: module = FMI2XML, log level = 4: [Line:8059] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Start attribute is required for this causality, variability and initial combination
+FMIL: module = FMI2XML, log level = 4: [Line:8118] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Initial 'calculated' is not allowed for variability 'constant' and causality 'local'. Setting initial to 'exact' for variable 'bld[1].bui.terUniCoo.fan.vol.state_start.p'
+FMIL: module = FMI2XML, log level = 4: [Line:8119] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Start attribute is required for this causality, variability and initial combination
+FMIL: module = FMI2XML, log level = 4: [Line:9666] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Initial 'calculated' is not allowed for variability 'constant' and causality 'local'. Setting initial to 'exact' for variable 'bld[1].bui.terUniCoo.retAir.p_in_internal'
+FMIL: module = FMI2XML, log level = 4: [Line:9667] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Start attribute is required for this causality, variability and initial combination
+FMIL: module = FMI2XML, log level = 4: [Line:9682] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Initial 'calculated' is not allowed for variability 'constant' and causality 'local'. Setting initial to 'exact' for variable 'bld[1].bui.terUniCoo.retAir.ports[1].p'
+FMIL: module = FMI2XML, log level = 4: [Line:9683] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Start attribute is required for this causality, variability and initial combination
+FMIL: module = FMI2XML, log level = 4: [Line:11035] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Initial 'calculated' is not allowed for variability 'constant' and causality 'local'. Setting initial to 'exact' for variable 'bld[1].bui.terUniHea.fan.port_a.p'
+FMIL: module = FMI2XML, log level = 4: [Line:11036] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Start attribute is required for this causality, variability and initial combination
+FMIL: module = FMI2XML, log level = 4: [Line:11135] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Initial 'calculated' is not allowed for variability 'constant' and causality 'local'. Setting initial to 'exact' for variable 'bld[1].bui.terUniHea.fan.preSou.port_a.p'
+FMIL: module = FMI2XML, log level = 4: [Line:11136] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Start attribute is required for this causality, variability and initial combination
+FMIL: module = FMI2XML, log level = 4: [Line:11207] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Initial 'calculated' is not allowed for variability 'constant' and causality 'local'. Setting initial to 'exact' for variable 'bld[1].bui.terUniHea.fan.senMasFlo.port_a.p'
+FMIL: module = FMI2XML, log level = 4: [Line:11208] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Start attribute is required for this causality, variability and initial combination
+FMIL: module = FMI2XML, log level = 4: [Line:11223] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Initial 'calculated' is not allowed for variability 'constant' and causality 'local'. Setting initial to 'exact' for variable 'bld[1].bui.terUniHea.fan.senMasFlo.port_b.p'
+FMIL: module = FMI2XML, log level = 4: [Line:11224] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Start attribute is required for this causality, variability and initial combination
+FMIL: module = FMI2XML, log level = 4: [Line:11259] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Initial 'calculated' is not allowed for variability 'constant' and causality 'local'. Setting initial to 'exact' for variable 'bld[1].bui.terUniHea.fan.senRelPre.port_b.p'
+FMIL: module = FMI2XML, log level = 4: [Line:11260] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Start attribute is required for this causality, variability and initial combination
+FMIL: module = FMI2XML, log level = 4: [Line:11499] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Initial 'calculated' is not allowed for variability 'constant' and causality 'local'. Setting initial to 'exact' for variable 'bld[1].bui.terUniHea.fan.vol.dynBal.medium.p'
+FMIL: module = FMI2XML, log level = 4: [Line:11500] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Start attribute is required for this causality, variability and initial combination
+FMIL: module = FMI2XML, log level = 4: [Line:11527] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Initial 'calculated' is not allowed for variability 'constant' and causality 'local'. Setting initial to 'exact' for variable 'bld[1].bui.terUniHea.fan.vol.dynBal.medium.state.p'
+FMIL: module = FMI2XML, log level = 4: [Line:11528] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Start attribute is required for this causality, variability and initial combination
+FMIL: module = FMI2XML, log level = 4: [Line:11539] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Initial 'calculated' is not allowed for variability 'constant' and causality 'local'. Setting initial to 'exact' for variable 'bld[1].bui.terUniHea.fan.vol.dynBal.p_start'
+FMIL: module = FMI2XML, log level = 4: [Line:11540] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Start attribute is required for this causality, variability and initial combination
+FMIL: module = FMI2XML, log level = 4: [Line:11555] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Initial 'calculated' is not allowed for variability 'constant' and causality 'local'. Setting initial to 'exact' for variable 'bld[1].bui.terUniHea.fan.vol.dynBal.ports[1].p'
+FMIL: module = FMI2XML, log level = 4: [Line:11556] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Start attribute is required for this causality, variability and initial combination
+FMIL: module = FMI2XML, log level = 4: [Line:11571] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Initial 'calculated' is not allowed for variability 'constant' and causality 'local'. Setting initial to 'exact' for variable 'bld[1].bui.terUniHea.fan.vol.dynBal.ports[2].p'
+FMIL: module = FMI2XML, log level = 4: [Line:11572] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Start attribute is required for this causality, variability and initial combination
+FMIL: module = FMI2XML, log level = 4: [Line:11707] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Initial 'calculated' is not allowed for variability 'constant' and causality 'local'. Setting initial to 'exact' for variable 'bld[1].bui.terUniHea.fan.vol.p'
+FMIL: module = FMI2XML, log level = 4: [Line:11708] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Start attribute is required for this causality, variability and initial combination
+FMIL: module = FMI2XML, log level = 4: [Line:11711] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Initial 'calculated' is not allowed for variability 'constant' and causality 'local'. Setting initial to 'exact' for variable 'bld[1].bui.terUniHea.fan.vol.p_start'
+FMIL: module = FMI2XML, log level = 4: [Line:11712] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Start attribute is required for this causality, variability and initial combination
+FMIL: module = FMI2XML, log level = 4: [Line:11731] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Initial 'calculated' is not allowed for variability 'constant' and causality 'local'. Setting initial to 'exact' for variable 'bld[1].bui.terUniHea.fan.vol.ports[1].p'
+FMIL: module = FMI2XML, log level = 4: [Line:11732] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Start attribute is required for this causality, variability and initial combination
+FMIL: module = FMI2XML, log level = 4: [Line:11747] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Initial 'calculated' is not allowed for variability 'constant' and causality 'local'. Setting initial to 'exact' for variable 'bld[1].bui.terUniHea.fan.vol.ports[2].p'
+FMIL: module = FMI2XML, log level = 4: [Line:11748] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Start attribute is required for this causality, variability and initial combination
+FMIL: module = FMI2XML, log level = 4: [Line:11807] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Initial 'calculated' is not allowed for variability 'constant' and causality 'local'. Setting initial to 'exact' for variable 'bld[1].bui.terUniHea.fan.vol.state_start.p'
+FMIL: module = FMI2XML, log level = 4: [Line:11808] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Start attribute is required for this causality, variability and initial combination
+FMIL: module = FMI2XML, log level = 4: [Line:13367] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Initial 'calculated' is not allowed for variability 'constant' and causality 'local'. Setting initial to 'exact' for variable 'bld[1].bui.terUniHea.retAir.p_in_internal'
+FMIL: module = FMI2XML, log level = 4: [Line:13368] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Start attribute is required for this causality, variability and initial combination
+FMIL: module = FMI2XML, log level = 4: [Line:13383] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Initial 'calculated' is not allowed for variability 'constant' and causality 'local'. Setting initial to 'exact' for variable 'bld[1].bui.terUniHea.retAir.ports[1].p'
+FMIL: module = FMI2XML, log level = 4: [Line:13384] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Start attribute is required for this causality, variability and initial combination
+FMIL: module = FMI2XML, log level = 4: [Line:24502] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Initial 'calculated' is not allowed for variability 'constant' and causality 'local'. Setting initial to 'exact' for variable 'bld[2].bui.terUniCoo.fan.port_a.p'
+FMIL: module = FMI2XML, log level = 4: [Line:24503] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Start attribute is required for this causality, variability and initial combination
+FMIL: module = FMI2XML, log level = 4: [Line:24602] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Initial 'calculated' is not allowed for variability 'constant' and causality 'local'. Setting initial to 'exact' for variable 'bld[2].bui.terUniCoo.fan.preSou.port_a.p'
+FMIL: module = FMI2XML, log level = 4: [Line:24603] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Start attribute is required for this causality, variability and initial combination
+FMIL: module = FMI2XML, log level = 4: [Line:24674] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Initial 'calculated' is not allowed for variability 'constant' and causality 'local'. Setting initial to 'exact' for variable 'bld[2].bui.terUniCoo.fan.senMasFlo.port_a.p'
+FMIL: module = FMI2XML, log level = 4: [Line:24675] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Start attribute is required for this causality, variability and initial combination
+FMIL: module = FMI2XML, log level = 4: [Line:24690] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Initial 'calculated' is not allowed for variability 'constant' and causality 'local'. Setting initial to 'exact' for variable 'bld[2].bui.terUniCoo.fan.senMasFlo.port_b.p'
+FMIL: module = FMI2XML, log level = 4: [Line:24691] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Start attribute is required for this causality, variability and initial combination
+FMIL: module = FMI2XML, log level = 4: [Line:24726] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Initial 'calculated' is not allowed for variability 'constant' and causality 'local'. Setting initial to 'exact' for variable 'bld[2].bui.terUniCoo.fan.senRelPre.port_b.p'
+FMIL: module = FMI2XML, log level = 4: [Line:24727] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Start attribute is required for this causality, variability and initial combination
+FMIL: module = FMI2XML, log level = 4: [Line:24966] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Initial 'calculated' is not allowed for variability 'constant' and causality 'local'. Setting initial to 'exact' for variable 'bld[2].bui.terUniCoo.fan.vol.dynBal.medium.p'
+FMIL: module = FMI2XML, log level = 4: [Line:24967] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Start attribute is required for this causality, variability and initial combination
+FMIL: module = FMI2XML, log level = 4: [Line:24994] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Initial 'calculated' is not allowed for variability 'constant' and causality 'local'. Setting initial to 'exact' for variable 'bld[2].bui.terUniCoo.fan.vol.dynBal.medium.state.p'
+FMIL: module = FMI2XML, log level = 4: [Line:24995] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Start attribute is required for this causality, variability and initial combination
+FMIL: module = FMI2XML, log level = 4: [Line:25006] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Initial 'calculated' is not allowed for variability 'constant' and causality 'local'. Setting initial to 'exact' for variable 'bld[2].bui.terUniCoo.fan.vol.dynBal.p_start'
+FMIL: module = FMI2XML, log level = 4: [Line:25007] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Start attribute is required for this causality, variability and initial combination
+FMIL: module = FMI2XML, log level = 4: [Line:25022] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Initial 'calculated' is not allowed for variability 'constant' and causality 'local'. Setting initial to 'exact' for variable 'bld[2].bui.terUniCoo.fan.vol.dynBal.ports[1].p'
+FMIL: module = FMI2XML, log level = 4: [Line:25023] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Start attribute is required for this causality, variability and initial combination
+FMIL: module = FMI2XML, log level = 4: [Line:25038] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Initial 'calculated' is not allowed for variability 'constant' and causality 'local'. Setting initial to 'exact' for variable 'bld[2].bui.terUniCoo.fan.vol.dynBal.ports[2].p'
+FMIL: module = FMI2XML, log level = 4: [Line:25039] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Start attribute is required for this causality, variability and initial combination
+FMIL: module = FMI2XML, log level = 4: [Line:25174] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Initial 'calculated' is not allowed for variability 'constant' and causality 'local'. Setting initial to 'exact' for variable 'bld[2].bui.terUniCoo.fan.vol.p'
+FMIL: module = FMI2XML, log level = 4: [Line:25175] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Start attribute is required for this causality, variability and initial combination
+FMIL: module = FMI2XML, log level = 4: [Line:25178] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Initial 'calculated' is not allowed for variability 'constant' and causality 'local'. Setting initial to 'exact' for variable 'bld[2].bui.terUniCoo.fan.vol.p_start'
+FMIL: module = FMI2XML, log level = 4: [Line:25179] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Start attribute is required for this causality, variability and initial combination
+FMIL: module = FMI2XML, log level = 4: [Line:25198] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Initial 'calculated' is not allowed for variability 'constant' and causality 'local'. Setting initial to 'exact' for variable 'bld[2].bui.terUniCoo.fan.vol.ports[1].p'
+FMIL: module = FMI2XML, log level = 4: [Line:25199] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Start attribute is required for this causality, variability and initial combination
+FMIL: module = FMI2XML, log level = 4: [Line:25214] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Initial 'calculated' is not allowed for variability 'constant' and causality 'local'. Setting initial to 'exact' for variable 'bld[2].bui.terUniCoo.fan.vol.ports[2].p'
+FMIL: module = FMI2XML, log level = 4: [Line:25215] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Start attribute is required for this causality, variability and initial combination
+FMIL: module = FMI2XML, log level = 4: [Line:25274] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Initial 'calculated' is not allowed for variability 'constant' and causality 'local'. Setting initial to 'exact' for variable 'bld[2].bui.terUniCoo.fan.vol.state_start.p'
+FMIL: module = FMI2XML, log level = 4: [Line:25275] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Start attribute is required for this causality, variability and initial combination
+FMIL: module = FMI2XML, log level = 4: [Line:26822] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Initial 'calculated' is not allowed for variability 'constant' and causality 'local'. Setting initial to 'exact' for variable 'bld[2].bui.terUniCoo.retAir.p_in_internal'
+FMIL: module = FMI2XML, log level = 4: [Line:26823] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Start attribute is required for this causality, variability and initial combination
+FMIL: module = FMI2XML, log level = 4: [Line:26838] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Initial 'calculated' is not allowed for variability 'constant' and causality 'local'. Setting initial to 'exact' for variable 'bld[2].bui.terUniCoo.retAir.ports[1].p'
+FMIL: module = FMI2XML, log level = 4: [Line:26839] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Start attribute is required for this causality, variability and initial combination
+FMIL: module = FMI2XML, log level = 4: [Line:28191] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Initial 'calculated' is not allowed for variability 'constant' and causality 'local'. Setting initial to 'exact' for variable 'bld[2].bui.terUniHea.fan.port_a.p'
+FMIL: module = FMI2XML, log level = 4: [Line:28192] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Start attribute is required for this causality, variability and initial combination
+FMIL: module = FMI2XML, log level = 4: [Line:28291] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Initial 'calculated' is not allowed for variability 'constant' and causality 'local'. Setting initial to 'exact' for variable 'bld[2].bui.terUniHea.fan.preSou.port_a.p'
+FMIL: module = FMI2XML, log level = 4: [Line:28292] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Start attribute is required for this causality, variability and initial combination
+FMIL: module = FMI2XML, log level = 4: [Line:28363] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Initial 'calculated' is not allowed for variability 'constant' and causality 'local'. Setting initial to 'exact' for variable 'bld[2].bui.terUniHea.fan.senMasFlo.port_a.p'
+FMIL: module = FMI2XML, log level = 4: [Line:28364] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Start attribute is required for this causality, variability and initial combination
+FMIL: module = FMI2XML, log level = 4: [Line:28379] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Initial 'calculated' is not allowed for variability 'constant' and causality 'local'. Setting initial to 'exact' for variable 'bld[2].bui.terUniHea.fan.senMasFlo.port_b.p'
+FMIL: module = FMI2XML, log level = 4: [Line:28380] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Start attribute is required for this causality, variability and initial combination
+FMIL: module = FMI2XML, log level = 4: [Line:28415] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Initial 'calculated' is not allowed for variability 'constant' and causality 'local'. Setting initial to 'exact' for variable 'bld[2].bui.terUniHea.fan.senRelPre.port_b.p'
+FMIL: module = FMI2XML, log level = 4: [Line:28416] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Start attribute is required for this causality, variability and initial combination
+FMIL: module = FMI2XML, log level = 4: [Line:28655] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Initial 'calculated' is not allowed for variability 'constant' and causality 'local'. Setting initial to 'exact' for variable 'bld[2].bui.terUniHea.fan.vol.dynBal.medium.p'
+FMIL: module = FMI2XML, log level = 4: [Line:28656] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Start attribute is required for this causality, variability and initial combination
+FMIL: module = FMI2XML, log level = 4: [Line:28683] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Initial 'calculated' is not allowed for variability 'constant' and causality 'local'. Setting initial to 'exact' for variable 'bld[2].bui.terUniHea.fan.vol.dynBal.medium.state.p'
+FMIL: module = FMI2XML, log level = 4: [Line:28684] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Start attribute is required for this causality, variability and initial combination
+FMIL: module = FMI2XML, log level = 4: [Line:28695] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Initial 'calculated' is not allowed for variability 'constant' and causality 'local'. Setting initial to 'exact' for variable 'bld[2].bui.terUniHea.fan.vol.dynBal.p_start'
+FMIL: module = FMI2XML, log level = 4: [Line:28696] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Start attribute is required for this causality, variability and initial combination
+FMIL: module = FMI2XML, log level = 4: [Line:28711] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Initial 'calculated' is not allowed for variability 'constant' and causality 'local'. Setting initial to 'exact' for variable 'bld[2].bui.terUniHea.fan.vol.dynBal.ports[1].p'
+FMIL: module = FMI2XML, log level = 4: [Line:28712] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Start attribute is required for this causality, variability and initial combination
+FMIL: module = FMI2XML, log level = 4: [Line:28727] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Initial 'calculated' is not allowed for variability 'constant' and causality 'local'. Setting initial to 'exact' for variable 'bld[2].bui.terUniHea.fan.vol.dynBal.ports[2].p'
+FMIL: module = FMI2XML, log level = 4: [Line:28728] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Start attribute is required for this causality, variability and initial combination
+FMIL: module = FMI2XML, log level = 4: [Line:28863] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Initial 'calculated' is not allowed for variability 'constant' and causality 'local'. Setting initial to 'exact' for variable 'bld[2].bui.terUniHea.fan.vol.p'
+FMIL: module = FMI2XML, log level = 4: [Line:28864] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Start attribute is required for this causality, variability and initial combination
+FMIL: module = FMI2XML, log level = 4: [Line:28867] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Initial 'calculated' is not allowed for variability 'constant' and causality 'local'. Setting initial to 'exact' for variable 'bld[2].bui.terUniHea.fan.vol.p_start'
+FMIL: module = FMI2XML, log level = 4: [Line:28868] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Start attribute is required for this causality, variability and initial combination
+FMIL: module = FMI2XML, log level = 4: [Line:28887] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Initial 'calculated' is not allowed for variability 'constant' and causality 'local'. Setting initial to 'exact' for variable 'bld[2].bui.terUniHea.fan.vol.ports[1].p'
+FMIL: module = FMI2XML, log level = 4: [Line:28888] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Start attribute is required for this causality, variability and initial combination
+FMIL: module = FMI2XML, log level = 4: [Line:28903] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Initial 'calculated' is not allowed for variability 'constant' and causality 'local'. Setting initial to 'exact' for variable 'bld[2].bui.terUniHea.fan.vol.ports[2].p'
+FMIL: module = FMI2XML, log level = 4: [Line:28904] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Start attribute is required for this causality, variability and initial combination
+FMIL: module = FMI2XML, log level = 4: [Line:28963] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Initial 'calculated' is not allowed for variability 'constant' and causality 'local'. Setting initial to 'exact' for variable 'bld[2].bui.terUniHea.fan.vol.state_start.p'
+FMIL: module = FMI2XML, log level = 4: [Line:28964] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Start attribute is required for this causality, variability and initial combination
+FMIL: module = FMI2XML, log level = 4: [Line:30523] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Initial 'calculated' is not allowed for variability 'constant' and causality 'local'. Setting initial to 'exact' for variable 'bld[2].bui.terUniHea.retAir.p_in_internal'
+FMIL: module = FMI2XML, log level = 4: [Line:30524] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Start attribute is required for this causality, variability and initial combination
+FMIL: module = FMI2XML, log level = 4: [Line:30539] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Initial 'calculated' is not allowed for variability 'constant' and causality 'local'. Setting initial to 'exact' for variable 'bld[2].bui.terUniHea.retAir.ports[1].p'
+FMIL: module = FMI2XML, log level = 4: [Line:30540] Detected during parsing:
+FMIL: module = FMI2XML, log level = 2: Start attribute is required for this causality, variability and initial combination
+FMIL: module = FMILIB, log level = 4: Loading 'linux64' binary with 'default' platform types
+FMIL: module = Model, log level = 4: [INFO][FMU status:OK] <JMIRuntime><value name="build_date">"Nov 22 2019"</value> <value name="build_time">"21:41:28"</value></JMIRuntime>
+FMIL: module = Model, log level = 4: [INFO][FMU status:OK] <JMIRuntime>Using mathematical functions with domain checks.</JMIRuntime>
+FMIL: module = Model, log level = 3: [WARNING][FMU status:Warning] <ModelicaMessage category="warning"><value name="msg">"... loading ""tab1"" from ""/tmp/JModelica.org/jm_tmpkVHhqB/resources/0/Loads.txt""&#10;"</value></ModelicaMessage>
+FMIL: module = Model, log level = 3: [WARNING][FMU status:Warning] <ModelicaMessage category="warning"><value name="msg">"... loading ""tab1"" from ""/tmp/JModelica.org/jm_tmpkVHhqB/resources/0/Loads.txt""&#10;"</value></ModelicaMessage>
+FMIL: module = Model, log level = 2: [INFO][FMU status:Error]   <KinsolError category="error">
+FMIL: module = Model, log level = 2: [ERROR][FMU status:Error]     Error occured in <value name="function">KINSol</value> at <value name="t">        0.0000000000000000E+00</value> when solving <value name="block">"9"</value>
+FMIL: module = Model, log level = 2: [ERROR][FMU status:Error]     <value name="msg">"The line search algorithm was unable to find an iterate sufficiently distinct from the current iterate."</value>
+FMIL: module = Model, log level = 2: [ERROR][FMU status:Error]     <value name="functionL2Norm">        9.6599019696605126E-01</value>, <value name="scaledStepLength">        4.8900953164851934E-05</value>, <value name="tolerance">        1.0000000000000000E-10</value>
+FMIL: module = Model, log level = 2: [ERROR][FMU status:Error]   </KinsolError>
+FMIL: module = Model, log level = 3: [WARNING][FMU status:Warning]   <NonConverge category="warning">The equations with initial scaling didn't converge to a solution in <value name="block">"9"</value></NonConverge>
+FMIL: module = Model, log level = 2: [INFO][FMU status:Error]   <KinsolError category="error">
+FMIL: module = Model, log level = 2: [ERROR][FMU status:Error]     Error occured in <value name="function">KINSol</value> at <value name="t">        0.0000000000000000E+00</value> when solving <value name="block">"9"</value>
+FMIL: module = Model, log level = 2: [ERROR][FMU status:Error]     <value name="msg">"The line search algorithm was unable to find an iterate sufficiently distinct from the current iterate."</value>
+FMIL: module = Model, log level = 2: [ERROR][FMU status:Error]     <value name="functionL2Norm">        9.9238157000855221E-01</value>, <value name="scaledStepLength">        4.8900953164851934E-05</value>, <value name="tolerance">        1.0000000000000000E-10</value>
+FMIL: module = Model, log level = 2: [ERROR][FMU status:Error]   </KinsolError>
+FMIL: module = Model, log level = 2: [ERROR][FMU status:Error]   <Error category="error">Could not converge after re-scaling equations in <value name="block">"9"</value></Error>
+FMIL: module = Model, log level = 3: [WARNING][FMU status:Warning] <AssertionError category="warning"><value name="msg">"Pressure (= -1.73154e+07 Pa) of medium ""Buildings.Media.Water"" is negative&#10;(Temperature = 293.15 K)"</value></AssertionError>
+FMIL: module = Model, log level = 2: [INFO][FMU status:Error] Initialization failed.
