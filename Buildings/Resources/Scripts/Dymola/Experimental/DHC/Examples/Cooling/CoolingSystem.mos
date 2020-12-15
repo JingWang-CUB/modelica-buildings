@@ -1,35 +1,39 @@
 ﻿// Simulate
-simulateModel("Buildings.Experimental.DHC.Examples.Cooling.CoolingSystem", stopTime=86400, method="Cvode", tolerance=1e-06, resultFile="CoolingSystem");
+simulateModel("Buildings.Experimental.DHC.Examples.Cooling.CoolingSystem", 
+    stopTime=86400, 
+    method="Cvode", 
+    tolerance=1e-06, 
+    resultFile="CoolingSystem");
 // Plot commands
 removePlots(false);
 createPlot(
     id=1, 
-    position={20, 4, 591, 536}, 
-    y={"pla.port_a.p", "pla.port_b.p", "bld[1].p_rel", "bld[2].p_rel", "bld[3].p_rel"}, 
+    position={20, 4, 910, 538}, 
+    y={"pla.port_a.p", "pla.port_b.p", "bld[1].p_rel", "bld[2].p_rel"}, 
     range={0.0, 24.0, -50000.0, 100000.0}, 
     grid=true, 
     filename="CoolingSystem.mat", 
-    colors={{28,108,200}, {238,46,47}, {0,140,72}, {217,67,180}, {0,0,0}}, 
+    colors={{28,108,200}, {238,46,47}, {0,140,72}, {217,67,180}}, 
     timeUnit="h", 
-    displayUnits={"bar", "bar", "", "", ""});
+    displayUnits={"bar", "bar", "", ""});
 createPlot(
     id=1, 
-    position={20, 4, 591, 536}, 
-    y={"pla.port_a.m_flow", "bld[1].m_flow", "bld[2].m_flow", "bld[3].m_flow"}, 
-    range={0.0, 24.0, 2.0, 8.0}, 
+    position={20, 4, 910, 538}, 
+    y={"pla.port_a.m_flow", "bld[1].m_flow", "bld[2].m_flow"}, 
+    range={0.0, 24.0, 2.0, 5.0}, 
     grid=true, 
     subPlot=2, 
-    colors={{238,46,47}, {28,108,200}, {0,140,72}, {217,67,180}}, 
+    colors={{238,46,47}, {28,108,200}, {0,140,72}}, 
     timeUnit="h", 
-    displayUnits={"kg/s", "kg/s", "kg/s", "kg/s"});
+    displayUnits={"kg/s", "kg/s", "kg/s"});
 createPlot(
     id=1, 
-    position={20, 4, 591, 536}, 
-    y={"pla.senTCHWSup.T", "bld[1].ets.senTDisRet.T"}, 
+    position={20, 4, 910, 538}, 
+    y={"pla.senTCHWSup.T", "bld[1].ets.senTDisRet.T", "bld[2].ets.senTDisRet.T"}, 
     range={0.0, 24.0, 0.0, 30.0}, 
     grid=true, 
     subPlot=3, 
-    colors={{28,108,200}, {238,46,47}}, 
+    colors={{28,108,200}, {238,46,47}, {0,140,72}}, 
     timeUnit="h", 
-    displayUnits={"degC", "degC"});
+    displayUnits={"degC", "degC", "degC"});
 

@@ -4,7 +4,7 @@ model CoolingSystem
   extends Modelica.Icons.Example;
   package Medium=Buildings.Media.Water
     "Medium model for water";
-  parameter Integer nBui=1
+  parameter Integer nBui=2
     "Number of buildings connected to each distribution branch, excluding the most remote one";
   parameter Boolean allowFlowReversal=false
     "Set to true to allow flow reversal in the distribution and connections";
@@ -163,8 +163,9 @@ equation
       StopTime=86400,
       Tolerance=1e-06,
       __Dymola_Algorithm="Cvode"),
-    __Dymola_Commands(
-      file="Resources/Scripts/Dymola/Experimental/DHC/Examples/Cooling/CoolingSystem.mos" "Simulate and Plot"),
+    __Dymola_Commands(file=
+          "Resources/Scripts/Dymola/Experimental/DHC/Examples/Cooling/CoolingSystem.mos"
+        "Simulate and Plot"),
     Documentation(
       revisions="<html>
 <ul>
