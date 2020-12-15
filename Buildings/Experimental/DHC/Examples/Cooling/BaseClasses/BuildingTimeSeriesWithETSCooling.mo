@@ -344,17 +344,14 @@ equation
       info="<html>
 This model integrates the <a href=\"modelica://Buildings.Experimental.DHC.Loads.Examples.BaseClasses.BuildingTimeSeries\">
 Buildings.Experimental.DHC.Loads.Examples.BaseClasses.BuildingTimeSeries</a>
-<li>
 and the <a href=\"modelica://Buildings.Experimental.DHC.Loads.Examples.BaseClasses.BuildingTimeSeries\">
 Buildings.Experimental.DHC.EnergyTransferStations.Cooling.CoolingDirectControlledReturn</a>.
-</li>
-<li>
+
 It has been adapted from an older version of PartialBuildingWithETS model.
-</li>
-<li>
+
 The official issue for the model development is <a href=\"https://github.com/lbl-srg/modelica-buildings/issues/2291\">
 #2291</a>.
-</li>
+
 </html>",
       revisions="<html>
 <ul>

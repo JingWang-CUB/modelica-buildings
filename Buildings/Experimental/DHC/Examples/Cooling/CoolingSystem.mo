@@ -118,7 +118,7 @@ model CoolingSystem
       mBui_flow_nominal,
       nBui),
     dpDis_nominal(
-      displayUnit="Pa")=fill(
+      each displayUnit="Pa")=fill(
       1000,
       nBui))
     "Distribution pipes"
