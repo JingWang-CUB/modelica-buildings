@@ -4,7 +4,7 @@ model CoolingSystem
   extends Modelica.Icons.Example;
   package Medium=Buildings.Media.Water
     "Medium model for water";
-  parameter Integer nBui=2
+  parameter Integer nBui=5
     "Number of buildings connected to each distribution branch, excluding the most remote one";
   parameter Boolean allowFlowReversal=false
     "Set to true to allow flow reversal in the distribution and connections";
@@ -62,9 +62,7 @@ model CoolingSystem
   Buildings.Experimental.DHC.Examples.Cooling.BaseClasses.BuildingTimeSeriesWithETSCooling bld[nBui](
     redeclare each package Medium=Medium,
     each filNam=filNam,
-    each mDis_flow_nominal=mBui_flow_nominal,
     each mBui_flow_nominal=mBui_flow_nominal,
-    each mByp_flow_nominal=0.01,
     each energyDynamics=energyDynamics)
     "Building with cooling load"
     annotation (Placement(transformation(extent={{10,40},{30,60}})));
@@ -87,15 +85,7 @@ model CoolingSystem
     dpCWPum_nominal=dpCWPum_nominal,
     tWai=tWai,
     dpSetPoi=dpSetPoi,
-    energyDynamics=energyDynamics,
-    pumCHW(
-      yValve_start=fill(
-        1,
-        pla.numChi),
-      yPump_start=fill(
-        1,
-        pla.numChi)))
-    "District cooling plant"
+    energyDynamics=energyDynamics) "District cooling plant"
     annotation (Placement(transformation(extent={{-30,0},{-10,20}})));
   Buildings.BoundaryConditions.WeatherData.ReaderTMY3 weaDat(
     final computeWetBulbTemperature=true,
@@ -166,7 +156,8 @@ equation
       StopTime=86400,
       Tolerance=1e-06,
       __Dymola_Algorithm="Cvode"),
-    __Dymola_Commands(file="Resources/Scripts/Dymola/Experimental/DHC/Examples/Cooling/CoolingSystem.mos"
+    __Dymola_Commands(file=
+          "Resources/Scripts/Dymola/Experimental/DHC/Examples/Cooling/CoolingSystem.mos"
         "Simulate and Plot"),
     Documentation(
       revisions="<html>

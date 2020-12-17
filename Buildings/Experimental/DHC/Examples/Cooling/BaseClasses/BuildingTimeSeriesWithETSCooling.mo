@@ -2,7 +2,7 @@ within Buildings.Experimental.DHC.Examples.Cooling.BaseClasses;
 model BuildingTimeSeriesWithETSCooling
   "Model of a building with thermal loads as time series, with an energy transfer station"
   extends Buildings.Fluid.Interfaces.PartialTwoPortInterface(
-    final m_flow_nominal=mDis_flow_nominal,
+    final m_flow_nominal=mBui_flow_nominal,
     final m_flow_small=1E-4*m_flow_nominal,
     final allowFlowReversal=allowFlowReversalDis);
   parameter Boolean allowFlowReversalBui=false
@@ -25,33 +25,20 @@ model BuildingTimeSeriesWithETSCooling
     string="#Peak space cooling load",
     filNam=Modelica.Utilities.Files.loadResource(filNam))
     "Design cooling heat flow rate (<=0)Nominal heat flow rate, negative";
-  parameter Modelica.SIunits.Temperature TChiWatSup_nominal=273.15+7
+  parameter Modelica.SIunits.Temperature TChiWatSup_nominal=273.15 + 7
     "Chilled water supply temperature at nominal conditions "
     annotation (Dialog(group="Building"));
-  parameter Modelica.SIunits.Temperature TChiWatRet_nominal=273.15+16
+  parameter Modelica.SIunits.Temperature TChiWatRet_nominal=273.15 + 16
     "Chilled water return temperature at nominal conditions "
     annotation (Dialog(group="Building"));
-  parameter Modelica.SIunits.Temperature T_aHeaWat_nominal=273.15+40
+  parameter Modelica.SIunits.Temperature T_aHeaWat_nominal=273.15 + 40
     "Heating water inlet temperature at nominal conditions"
     annotation (Dialog(group="Building"));
   // ETS parameters
-  parameter Modelica.SIunits.Temperature TSetDisRet=TChiWatRet_nominal
-    "Minimum setpoint temperature for district return"
-    annotation (Dialog(group="Energy transfer station"));
-  parameter Modelica.SIunits.MassFlowRate mDis_flow_nominal(
-    final min=0,
-    final start=0.5)
-    "Nominal mass flow rate of district cooling side"
-    annotation (Dialog(group="Energy transfer station"));
   parameter Modelica.SIunits.MassFlowRate mBui_flow_nominal(
     final min=0,
     final start=0.5)=Q_flow_nominal/(cp*(TChiWatSup_nominal-TChiWatRet_nominal))
     "Nominal mass flow rate of building cooling side"
-    annotation (Dialog(group="Energy transfer station"));
-  parameter Modelica.SIunits.MassFlowRate mByp_flow_nominal(
-    final min=0,
-    final start=0.5)
-    "Nominal mass flow rate through the bypass segment"
     annotation (Dialog(group="Energy transfer station"));
   replaceable Buildings.Experimental.DHC.Loads.Examples.BaseClasses.BuildingTimeSeries bui(
     have_watHea=true,
@@ -73,20 +60,14 @@ model BuildingTimeSeriesWithETSCooling
     final allowFlowReversal=allowFlowReversalBui)
     "Building model"
     annotation (Placement(transformation(extent={{-10,40},{10,60}})));
-  replaceable Buildings.Experimental.DHC.EnergyTransferStations.Cooling.CoolingDirectControlledReturn ets(
+  replaceable Buildings.Experimental.DHC.EnergyTransferStations.Cooling.CoolingDirectUncontrolled ets(
     redeclare final package Medium=Medium,
-    final mDis_flow_nominal=mDis_flow_nominal,
-    final mBui_flow_nominal=mBui_flow_nominal,
-    final mByp_flow_nominal=mByp_flow_nominal)
+    final m_flow_nominal=mBui_flow_nominal)
     "Cooling energy transfer station"
     annotation (Placement(transformation(extent={{-10,-40},{10,-20}})));
   inner Modelica.Fluid.System system
     "System properties and default values"
     annotation (Placement(transformation(extent={{-80,40},{-60,60}})));
-  Modelica.Blocks.Sources.Constant TSetDisRet_min(
-    k=TSetDisRet)
-    "Minimum setpoint temperature for district return"
-    annotation (Placement(transformation(extent={{-80,-60},{-60,-40}})));
   Modelica.Blocks.Sources.RealExpression THeaWatSup(
     y=T_aHeaWat_nominal)
     "Heating water supply temperature"
@@ -107,7 +88,8 @@ model BuildingTimeSeriesWithETSCooling
     redeclare package Medium=Medium)
     "Pressure difference measurement"
     annotation (Placement(transformation(extent={{-10,-10},{10,10}},origin={-60,-20},rotation=-90)));
-  Modelica.Blocks.Interfaces.RealOutput p_rel
+  Modelica.Blocks.Interfaces.RealOutput p_rel(
+    unit="Pa")
     "Relative pressure of port_a minus port_b"
     annotation (Placement(transformation(extent={{200,0},{220,20}}),iconTransformation(extent={{100,20},{120,40}})));
   Modelica.Blocks.Continuous.Integrator EHeaReq(
@@ -146,7 +128,8 @@ model BuildingTimeSeriesWithETSCooling
     final delta=perAve)
     "Time average of cooling heat flow rate"
     annotation (Placement(transformation(extent={{160,-80},{180,-60}})));
-  Modelica.Blocks.Interfaces.RealOutput PPum
+  Modelica.Blocks.Interfaces.RealOutput PPum(
+    unit="W")
     "Power drawn by pump motors"
     annotation (Placement(transformation(extent={{200,40},{220,60}}),iconTransformation(extent={{100,60},{120,80}})));
 protected
@@ -168,8 +151,6 @@ equation
     annotation (Line(points={{10,44},{40,44},{40,-36},{10,-36}},color={0,127,255}));
   connect(ets.port_b2,port_b)
     annotation (Line(points={{-10,-36},{-40,-36},{-40,-60},{80,-60},{80,0},{100,0}},color={0,127,255}));
-  connect(TSetDisRet_min.y,ets.TSetDisRet)
-    annotation (Line(points={{-59,-50},{-20,-50},{-20,-42},{-12,-42}},color={0,0,127}));
   connect(supHeaWat.T_in,THeaWatSup.y)
     annotation (Line(points={{-62,94},{-66,94},{-66,90},{-69,90}},color={0,0,127}));
   connect(supHeaWat.ports[1],bui.ports_aHeaWat[1])

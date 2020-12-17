@@ -22,7 +22,7 @@ model CoolingPlantOpenLoop
   // control settings
   parameter Modelica.SIunits.Pressure dpSetPoi=68900
     "Differential pressure setpoint";
-  parameter Modelica.SIunits.Temperature TCHWSet=273.15+8
+  parameter Modelica.SIunits.Temperature TCHWSet=273.15 + 8
     "Chilled water temperature setpoint";
   parameter Modelica.SIunits.Time tWai=30
     "Waiting time";

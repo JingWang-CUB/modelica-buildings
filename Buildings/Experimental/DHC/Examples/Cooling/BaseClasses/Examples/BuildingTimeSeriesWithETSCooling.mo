@@ -7,11 +7,7 @@ model BuildingTimeSeriesWithETSCooling
   Buildings.Experimental.DHC.Examples.Cooling.BaseClasses.BuildingTimeSeriesWithETSCooling buiWitETS(
     redeclare package Medium=Medium,
     energyDynamics=Modelica.Fluid.Types.Dynamics.FixedInitial,
-    filNam="modelica://Buildings/Resources/Data/Experimental/DHC/Examples/Cooling/BaseClasses/Examples/Loads.txt",
-    TSetDisRet(
-      displayUnit="K"),
-    mDis_flow_nominal=buiWitETS.mBui_flow_nominal,
-    mByp_flow_nominal=0.01)
+    filNam="modelica://Buildings/Resources/Data/Experimental/DHC/Examples/Cooling/BaseClasses/Examples/Loads.txt")
     "Building with ETS model"
     annotation (Placement(transformation(extent={{-40,-8},{-20,12}})));
   Buildings.Fluid.Sources.Boundary_pT watSin(
